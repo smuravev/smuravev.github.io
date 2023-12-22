@@ -1,0 +1,35 @@
+# Ignore OS generated files and commons
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.tmp
+tmp/
+*.log
+logs/
+*.swp
+null
+*~
+
+# GIT specific
+!.gitkeep
+
+# Ignore IDE and build tools
+.idea
+*.iml
+*.ipr
+*.iws
+.gradle
+.settings
+.classpath
+.project
+.asscache
+dist/
+
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
